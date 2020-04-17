@@ -214,7 +214,7 @@ landscape:
           - item:
             name: Dragonfly
             homepage_url: 'https://d7y.io/en-us/'
-            project: sandbox
+            project: incubating
             repo_url: 'https://github.com/dragonflyoss/Dragonfly'
             logo: dragonfly.svg
             twitter: 'https://twitter.com/dragonfly_oss'
@@ -306,6 +306,11 @@ landscape:
             homepage_url: 'https://www.bloombase.com/'
             logo: 'https://landscape.cncf.io/logos/bloombase.svg'
             crunchbase: 'https://www.crunchbase.com/organization/bloombase'
+          - item:
+            name: Capsule8
+            homepage_url: 'https://capsule8.com/'
+            logo: 'https://www.cncf.io/wp-content/uploads/2018/01/capsule8.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/capsule8'
           - item:
             name: cert-manager
             homepage_url: 'https://www.jetstack.io/open-source/'
@@ -2231,10 +2236,11 @@ landscape:
           - item:
             name: Argo
             homepage_url: 'https://argoproj.github.io/'
+            project: incubating
             repo_url: 'https://github.com/argoproj/argo'
             logo: argo.svg
             twitter: 'https://twitter.com/argoproj'
-            crunchbase: 'https://www.crunchbase.com/organization/intuit'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
           - item:
             name: AWS CodePipeline
             description: >-
@@ -2626,6 +2632,12 @@ landscape:
             logo: 'https://www.cncf.io/wp-content/uploads/2017/08/hc3.svg'
             crunchbase: 'https://www.crunchbase.com/organization/h3c-technologies'
           - item:
+            name: HarmonyCloud Container Platform
+            description: HarmonyCloud Container Platform is an Enterprise Platform-as-a-Service based on Kubernetes.
+            homepage_url: 'http://harmonycloud.cn/products/rongqiyun/'
+            logo: harmonycloud.svg
+            crunchbase: 'https://www.crunchbase.com/organization/hangzhou-harmony-technology-co-ltd'
+          - item:
             name: HPE Container Platform
             description: >-
               The HPE Container Platform is an enterprise-grade solution to deploy containerized environments at scale with open source Kubernetes, for both
@@ -2798,6 +2810,14 @@ landscape:
             logo: robin-systems.svg
             crunchbase: 'https://www.crunchbase.com/organization/robin-systems'
           - item:
+            name: Spectro Cloud
+            description: >-
+              Keep control of your Kubernetes infrastructure stack with Spectro Cloud’s as-a-Service experience for public clouds, private clouds, and bare
+              metal environments.
+            homepage_url: 'https://www.spectrocloud.com/'
+            logo: spectro-cloud.svg
+            crunchbase: 'https://www.crunchbase.com/organization/spectro-cloud'
+          - item:
             name: SUSE CaaS Platform
             description: >-
               SUSE CaaS (Container as a Service) Platform is an application development and hosting platform for container applications and services that
@@ -2823,21 +2843,23 @@ landscape:
             logo: typhoon.svg
             crunchbase: 'https://www.crunchbase.com/organization/poseidon'
           - item:
-            name: VMware Enterprise PKS
-            description: >-
-              Jointly developed by VMware and Pivotal, in collaboration with Google, VMware Enterprise PKS is a production-grade Kubernetes-based container
-              solution equipped with advanced networking, a private container registry, and full lifecycle management. It radically simplifies the deployment
-              and operation of Kubernetes clusters so you can run and manage containers at scale on private and public clouds.
-            homepage_url: 'https://cloud.vmware.com/vmware-enterprise-pks'
-            logo: vmware-enterprise-pks.svg
-            crunchbase: 'https://www.crunchbase.com/organization/vmware'
-          - item:
             name: VMware Tanzu Kubernetes Grid
             description: >-
               VMware Tanzu Kubernetes Grid is VMware’s Kubernetes distribution - built on open source technologies,  packaged for enterprise adoption and
               supported 24x7 by VMware Global Support Services (GSS).
-            homepage_url: 'https://cloud.vmware.com/tanzu'
+            homepage_url: 'https://tanzu.vmware.com/kubernetes-grid'
             logo: vmware-tanzu.svg
+            twitter: 'https://twitter.com/vmwaretanzu'
+            crunchbase: 'https://www.crunchbase.com/organization/vmware'
+          - item:
+            name: VMware Tanzu Kubernetes Grid Integrated Edition
+            description: >-
+              VMware Tanzu Kubernetes Grid Integrated Edition is a production grade Kubernetes-based container solution equipped with advanced networking, a
+              private container registry, and full lifecycle management. VMware Tanzu Kubernetes Grid Integrated Edition radically simplifies the deployment and
+              operation of Kubernetes clusters so you can run and manage containers at scale on private and public clouds.
+            homepage_url: 'https://tanzu.vmware.com/kubernetes-grid'
+            logo: vmware-tanzu.svg
+            twitter: 'https://twitter.com/vmwaretanzu'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
           - item:
             name: Wind River Cloud Platform
@@ -2966,12 +2988,6 @@ landscape:
             logo: google-kubernetes-engine.svg
             twitter: 'https://twitter.com/GCPcloud'
             crunchbase: 'https://www.crunchbase.com/organization/google'
-          - item:
-            name: HarmonyCloud Container Platform
-            description: 'Kubernetes, second generation PaaS cloud computing platform, builds industry-leading container cloud computing framework'
-            homepage_url: 'http://harmonycloud.cn'
-            logo: harmonycloud.svg
-            crunchbase: 'https://www.crunchbase.com/organization/hangzhou-harmony-technology-co-ltd'
           - item:
             name: Huawei Cloud Container Engine (CCE)
             description: >-
@@ -4244,6 +4260,11 @@ landscape:
             logo: loggly.svg
             crunchbase: 'https://www.crunchbase.com/organization/loggly'
           - item:
+            name: Logiq
+            homepage_url: 'https://logiq.ai/'
+            logo: logiq.svg
+            crunchbase: 'https://www.crunchbase.com/organization/logiq'
+          - item:
             name: Logstash
             homepage_url: 'https://www.elastic.co/products/logstash'
             repo_url: 'https://github.com/elastic/logstash'
@@ -4525,6 +4546,14 @@ landscape:
             homepage_url: 'https://banzaicloud.com/'
             logo: banzai-cloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/banzai-cloud'
+          - item:
+            name: BeOpenIT (KCSP)
+            description: >-
+              BeOpenIT is a Cloud, DevOps, AI and Cybersecurity consultancy providing training, products and support of Kubernetes and cloud native
+              technologies.
+            homepage_url: 'https://www.beopenit.com/'
+            logo: beopenit.svg
+            crunchbase: 'https://www.crunchbase.com/organization/beopenit'
           - item:
             name: Blue Sentry (KCSP)
             description: >-
@@ -5107,6 +5136,14 @@ landscape:
             logo: octo-technology.svg
             crunchbase: 'https://www.crunchbase.com/organization/octo-technology'
           - item:
+            name: OGIS-RI (KCSP)
+            description: >-
+              OGIS-RI Co.,Ltd, a leading Cloud Integrator in Japan, provides Kubernetes consulting, planning, impementation and operations support for public
+              cloud and on-premise deployments. 
+            homepage_url: www.ogis-ri.co.jp/
+            logo: ogis-ri.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ogis-ri'
+          - item:
             name: Origoss Solutions (KCSP)
             description: Origoss Solutions helps enterprises in their journey to the cloud native world by offering consultancy and operations support solutions.
             homepage_url: 'https://origoss.com/'
@@ -5388,6 +5425,14 @@ landscape:
             homepage_url: 'http://www.wise2c.com/'
             logo: wise2-c-kcsp.svg
             crunchbase: 'https://www.crunchbase.com/organization/wise2c-technology-co'
+          - item:
+            name: XenonStack (KCSP)
+            description: >-
+              XenonStack is a leading Kubernetes consulting and solutions provider, helping enterprises build cloud native applications with Continuous
+              Delivery, DataOps and Enterprise AI Platform for Decision Intelligence.
+            homepage_url: 'https://www.xenonstack.com/cloud/kubernetes/'
+            logo: xenonstack.svg
+            crunchbase: 'https://www.crunchbase.com/organization/xenonstack'
           - item:
             name: YLD (KCSP)
             description: We modernise both practices and software. Applying expertise in a range of CNCF technologies and an inherent culture of innovation.
@@ -7642,7 +7687,6 @@ landscape:
             name: Spectro Cloud (member)
             homepage_url: 'https://www.spectrocloud.com/'
             logo: spectro-cloud.svg
-            twitter: null
             crunchbase: 'https://www.crunchbase.com/organization/spectro-cloud'
           - item:
             name: Spotify (member)
